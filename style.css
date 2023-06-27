@@ -4,9 +4,67 @@
   box-sizing: border-box;
 }
 
-main {
+body {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
+}
+
+main {
+  background-color: #5cdb95;
+  width: 393px;
+  height: 852px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* map */
+.map {
+  height: 568px;
+}
+/* details */
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem 2.5rem;
+  background-color: #379683;
+  padding: 5px;
+}
+.details {
+  height: 100px;
+  /* background-color: rgb(144, 140, 140); */
+}
+select,
+input {
+  width: 90px;
+  height: 20px;
+}
+.form__input {
+  color: rgb(55, 152, 105);
+  font-size: 12px;
+}
+label {
+  font-size: 14px;
+}
+.cycling-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+/* navbar */
+.navbar {
+  height: 35px;
+  background-color: #05386b;
+  color: #fff;
+  padding: 5px;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  height: 100%;
 }

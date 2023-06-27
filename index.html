@@ -12,10 +12,39 @@
         <h1>Map Goes Here</h1>
       </section>
       <section class="details">
-        <h2>Sport Details Here</h2>
+        <form>
+          <div class="activity">
+            <label class="form__label">Type</label>
+            <select class="form__input form__input--type">
+              <option value="running">Running</option>
+              <option value="cycling">Cycling</option>
+            </select>
+          </div>
+          <div class="distance">
+            <label for="">Distance</label>
+            <input placeholder="kms" />
+          </div>
+          <div class="time">
+            <label for="">Time</label>
+            <input placeholder="mins" />
+          </div>
+
+          <div class="Speed">
+            <label for="">Ave.Speed</label>
+            <input placeholder="km/hr" />
+          </div>
+        </form>
+        <div class="cycling-data">
+            <p>Your workout data will be displayed in here</p>
+        </div>
       </section>
       <section class="navbar">
-        <h1>Navbar goes here</h1>
+        <ul>
+          <li>Explore</li>
+          <li>Saved</li>
+          <li>contact</li>
+          <li>Account</li>
+        </ul>
       </section>
     </main>
     <script src="script.js"></script>
